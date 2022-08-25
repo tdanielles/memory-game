@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.343c64c0.css",
+    "main.js": "/memory-game/static/js/main.afd9f186.js",
+    "static/media/background-ghibli.jpeg": "/memory-game/static/media/background-ghibli.7e8772ab6342ece2491e.jpeg",
+    "static/media/background-naruto.webp": "/memory-game/static/media/background-naruto.39a9845c58c1b7086d06.webp",
+    "index.html": "/memory-game/index.html",
+    "main.343c64c0.css.map": "/memory-game/static/css/main.343c64c0.css.map",
+    "main.afd9f186.js.map": "/memory-game/static/js/main.afd9f186.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.343c64c0.css",
+    "static/js/main.afd9f186.js"
+  ]
+}
