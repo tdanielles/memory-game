@@ -1,0 +1,138 @@
+html {
+    background-size: cover;
+    height: 100%;
+    color:white;
+    font-family: 'Poppins';
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.ghibli {
+    background: url('../background-ghibli.jpeg') no-repeat center center fixed;
+}
+
+.naruto {
+    background: url('../background-naruto.webp') no-repeat center center fixed;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    text-shadow: 2px 2px rgb(0,0,0, 0.3);
+}
+
+.header .title {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 40px;
+    text-shadow: 2px 2px rgb(0,0,0, 0.5) !important;
+}
+
+.header .rules {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.header .displayText {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+  
+.scoreboard {
+    display: flex;
+    margin-top: 10px;
+}
+
+.score {
+  flex: 5 5 auto;
+  font-size: 16px;
+  padding-top: 10px;
+  color: rgb(255, 146, 146);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.highscore {
+  flex: 5 5 auto;
+  font-size: 16px;
+  padding-top: 10px;
+  color: #38ff8b;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.selection select {
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+  padding-left: 8px;
+  padding-right: 5px;
+  font-weight: lighter;
+}
+
+/* CARDS */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.603);
+  border-radius: 12px;
+  flex: 0 1 calc(25% - 1em);
+  transition: 0.3s ease;
+  height: 250px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card:active {
+  transform: scale(0.97);
+}
+
+.cardArt {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+  height: 200px;
+}
+
+.cardText {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+@media screen and (max-width: 912px) {
+  .card {
+    flex: 0 1 calc(33% - 1em);
+    height: 180px;
+  }
+  .cardArt {
+    height: 120px;
+  }
+  .cardText {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .card {
+    flex: 0 1 calc(50% - 1em);
+    height: 170px;
+  }
+}
+
+
+
